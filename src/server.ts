@@ -6,8 +6,14 @@ import {
   downloadAudio,
   outputPath,
 } from "./services/audioServices";
-import { getTranscription, saveTranscription } from "./services/aiServices";
+import {
+  getSummary,
+  getTranscription,
+  getTranslation,
+  saveTranscription,
+} from "./services/aiServices";
 import { srtToString } from "./utils/srtToJsonParser";
+import { readSrtFileAsString } from "./utils/readSrtAsString";
 
 const server = Fastify({
   logger: true,
@@ -49,6 +55,51 @@ server.get("/audio", async (request: FastifyRequest, reply: FastifyReply) => {
   }
 });
 
+server.get(
+  "/audio/translate",
+  async (request: FastifyRequest, reply: FastifyReply) => {
+    const textInput = readSrtFileAsString("assets/srt/audio.srt");
+    const lang = "eng-USA";
+
+    const translation = await getTranslation(textInput, lang);
+
+    if (typeof translation !== "string") {
+      return reply
+        .status(400)
+        .send({ error: "The translation content is not of type String." });
+    }
+
+    await saveTranscription(translation, `assets/srt/audio_${lang}.srt`);
+    console.log(translation);
+
+    return translation;
+  }
+);
+
+server.get(
+  "/audio/summary",
+  async (request: FastifyRequest, reply: FastifyReply) => {
+    const textInput = readSrtFileAsString("assets/srt/audio.srt");
+    const lang = "eng-USA";
+
+    const translation = await getSummary(textInput, lang);
+
+    if (typeof translation !== "string") {
+      return reply
+        .status(400)
+        .send({ error: "The translation content is not of type String." });
+    }
+
+    await saveTranscription(
+      translation,
+      `assets/summaries/summary_audio_${lang}.txt`
+    );
+    console.log(translation);
+
+    return translation;
+  }
+);
+
 const port = 3000;
 
 server.listen({ port: port }, (err) => {
@@ -57,5 +108,3 @@ server.listen({ port: port }, (err) => {
     process.exit(1);
   }
 });
-
-srtToString("assets/srt/audio.srt");

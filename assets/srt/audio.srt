@@ -1,105 +1,117 @@
 1
-00:00:01,000 --> 00:00:05,000
-The relationship between creatives and clients is ancient.
+00:00:01,000 --> 00:00:04,000
+Recursos naturais
 
 2
-00:00:05,000 --> 00:00:10,000
-From Leonardo da Vinci with the Medici family, to Frank Gehry with Bilbao and the Guggenheim.
+00:00:05,000 --> 00:00:12,000
+Olá! Você sabia que o estoque de recursos naturais é denominado de capital natural?
 
 3
-00:00:10,000 --> 00:00:14,000
-But if there is something that has been kept intact during all these years,
+00:00:12,000 --> 00:00:19,000
+O termo é baseado nos princípios da economia e, uma vez que o capital natural gera valor,
 
 4
-00:00:14,000 --> 00:00:19,000
-is that creatives and clients don't understand each other sometimes.
+00:00:19,000 --> 00:00:24,000
+ele é produzido no presente ou constitui um valor futuro.
 
 5
-00:00:19,000 --> 00:00:23,000
-But how can we reach understanding using a text that says nothing
+00:00:25,000 --> 00:00:33,000
+Além do capital natural, temos o capital humano, que são os recursos imateriais obtidos por meio do trabalho,
 
 6
-00:00:23,000 --> 00:00:26,000
-into thousands of sketches that we show to our clients?
+00:00:33,000 --> 00:00:40,000
+e o capital produzido, que são os recursos materiais obtidos também por meio do trabalho.
 
 7
-00:00:26,000 --> 00:00:28,000
-We are talking about Lorem Ipsum.
+00:00:41,000 --> 00:00:48,000
+Você sabia que os recursos naturais estão divididos em recursos renováveis e não renováveis?
 
 8
-00:00:28,000 --> 00:00:33,000
-If Lorem Ipsum was used day by day in our lives, nobody could be understood.
+00:00:48,000 --> 00:00:52,000
+Vamos conhecer as características de cada um deles?
 
 9
-00:00:33,000 --> 00:00:37,000
-Darling, we have to talk. It's about Lorem Ipsum.
+00:00:54,000 --> 00:01:01,000
+Os recursos naturais renováveis, ao serem explorados, podem retornar ao nível de estoque anterior
 
 10
-00:00:37,000 --> 00:00:41,000
-You have the right to remain silent. All you say can be used against Lorem Ipsum.
+00:01:01,000 --> 00:01:07,000
+à exploração por meio de processos naturais de crescimento ou reabastecimento.
 
 11
-00:00:41,000 --> 00:00:44,000
-What I feel for you is Lorem Ipsum. Sit on it.
+00:01:08,000 --> 00:01:15,000
+Alguns exemplos de recursos renováveis são solo, água, energia solar, energia eólica,
 
 12
-00:00:44,000 --> 00:00:47,000
-That's why the Lorem Ipsum project is born.
+00:01:15,000 --> 00:01:20,000
+energia geotérmica, biocombustíveis e plantações.
 
 13
-00:00:47,000 --> 00:00:51,000
-An initiative which aims to turn this contentless text into a tool
+00:01:21,000 --> 00:01:31,000
+Já os recursos naturais não renováveis não conseguem se regenerar em um tempo compatível com as taxas de exploração humana.
 
 14
-00:00:51,000 --> 00:00:55,000
-to improve the relationship between creatives and clients.
+00:01:31,000 --> 00:01:41,000
+São exemplos de recursos não renováveis, carvão mineral, ouro, urânio, petróleo, areia, ferro e alumínio.
 
 15
-00:00:55,000 --> 00:00:58,000
-And how does it work? Very easy.
+00:01:41,000 --> 00:01:50,000
+Temos também os recursos condicionalmente renováveis, nos quais a exploração eventualmente atinge um determinado nível
 
 16
-00:00:58,000 --> 00:01:02,000
-Replace the Lorem Ipsum you usually use in your sketches for the client
+00:01:50,000 --> 00:01:57,000
+cuja regeneração se tornará impossível. É o caso da exploração de madeira, por exemplo.
 
 17
-00:01:02,000 --> 00:01:05,000
-by the manifest from the Lorem Ipsum project,
+00:01:58,000 --> 00:02:06,000
+Além de recursos renováveis e não renováveis, os recursos naturais são divididos em cinco categorias,
 
 18
-00:01:05,000 --> 00:01:08,000
-a message of affection and respect for the work done.
+00:02:06,000 --> 00:02:11,000
+de acordo com a sua constituição e utilização pelo ser humano.
 
 19
-00:01:08,000 --> 00:01:11,000
-Or, if you dare, create a personalized Lorem Ipsum
+00:02:11,000 --> 00:02:20,000
+Nesse caso, eles se classificam em recursos minerais, geológicos, energéticos, hídricos e biológicos.
 
 20
-00:01:11,000 --> 00:01:14,000
-with the message you want encrypted in the original Lorem Ipsum.
+00:02:20,000 --> 00:02:23,000
+Vamos conhecer melhor cada um deles?
 
 21
-00:01:14,000 --> 00:01:17,000
-Approve me this print, please. My girlfriend is getting married tomorrow
+00:02:24,000 --> 00:02:31,000
+Alguns exemplos de recursos minerais são minérios de ouro, minérios de carvão e minérios de diamante.
 
 22
-00:01:17,000 --> 00:01:19,000
-and I expect that she does it with me.
+00:02:31,000 --> 00:02:38,000
+Como exemplos de recursos biológicos temos estação de areia, estação de calcário e estação de mármore.
 
 23
-00:01:19,000 --> 00:01:23,000
-Because when understanding is involved, nothing can prevent that a good idea goes ahead.
+00:02:38,000 --> 00:02:47,000
+Já os exemplos de recursos energéticos correspondem a energia solar, energia hidroelétrica e energia nuclear.
 
 24
-00:01:25,000 --> 00:01:29,000
-The Lorem Ipsum Project
+00:02:47,000 --> 00:02:53,000
+Exemplos de recursos hídricos são os rios, lagos e as reservas subterrâneas.
 
 25
-00:01:29,000 --> 00:01:32,000
-A production of LOREM IPSUM
+00:02:53,000 --> 00:03:00,000
+Por fim, como exemplo de recursos biológicos, temos os recursos vegetais e os recursos animais.
 
 26
-00:01:32,000 --> 00:01:35,000
-A production of LOREM IPSUM
+00:03:02,000 --> 00:03:08,000
+Por enquanto é isso. Com este vídeo foi possível perceber como os recursos naturais são variados
+
+27
+00:03:08,000 --> 00:03:12,000
+e como o ser humano sempre dependeu deles para sobreviver.
+
+28
+00:03:12,000 --> 00:03:15,000
+Continue os seus estudos e até a próxima!
+
+29
+00:03:23,000 --> 00:03:26,000
+Legendas pela comunidade Amara.org
 
 

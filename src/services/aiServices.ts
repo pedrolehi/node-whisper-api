@@ -46,13 +46,34 @@ export const getTranslation = async (input: string, lang: string) => {
       messages: [
         {
           role: "system",
-          content: `Translate this srt file ${input} to this language ${lang}`,
+          content: `Translate this srt file ${input} to this language ${lang} add no comensts and return only the content that is on the file given.`,
         },
       ],
       model: "gpt-4o-mini",
     });
 
     console.log(translation.choices[0]);
+    return translation.choices[0].message.content;
+  } catch (error) {
+    console.error("Error during translation:", error);
+    throw error;
+  }
+};
+
+export const getSummary = async (input: string, lang: string) => {
+  try {
+    const translation = await openai.chat.completions.create({
+      messages: [
+        {
+          role: "system",
+          content: `Take this srt file ${input} and give me a summary to the content to the following language ${lang} giving me the main topics and shor descriptions of it. Do not comment, only give the summary.`,
+        },
+      ],
+      model: "gpt-4o-mini",
+    });
+
+    console.log(translation.choices[0]);
+    return translation.choices[0].message.content;
   } catch (error) {
     console.error("Error during translation:", error);
     throw error;
