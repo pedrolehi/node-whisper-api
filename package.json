@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch --env-file .env src/server.ts",
+    "migrate": "npx prisma migrate dev",
     "build": "tsup src --format esm",
     "start": "node dist/server.mjs"
   },
@@ -28,6 +29,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/fluent-ffmpeg": "^2.1.25",
     "@types/node": "^22.0.2",
+    "prisma": "^5.17.0",
     "tsup": "^8.2.3",
     "tsx": "^4.16.5",
     "typescript": "^5.5.4"

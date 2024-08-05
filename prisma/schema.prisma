@@ -1,0 +1,37 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Resource {
+  id        String     @id @default(uuid())
+  videoUrl  String     @unique
+  audioPath String
+  subtitle  Subtitle[]
+  summary   Summary[]
+}
+
+model Subtitle {
+  id         Int    @id @default(autoincrement())
+  resourceId String
+  content    String
+  language   String
+
+  Resource Resource? @relation(fields: [resourceId], references: [id])
+}
+
+model Summary {
+  id         Int    @id @default(autoincrement())
+  resourceId String
+  content    String
+  language   String
+
+  Resource Resource? @relation(fields: [resourceId], references: [id])
+}
