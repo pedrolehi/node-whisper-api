@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -11,11 +8,14 @@ datasource db {
 }
 
 model Resource {
-  id        String     @id @default(uuid())
-  videoUrl  String     @unique
-  audioPath String
-  subtitle  Subtitle[]
-  summary   Summary[]
+  id          String        @id @default(uuid())
+  name        String
+  videoUrl    String?       @unique
+  audioPath   String
+  subtitle    Subtitle[]
+  summary     Summary[]
+  tags        Tag[]         @relation("ResourceTags")
+  ResourceTag ResourceTag[]
 }
 
 model Subtitle {
@@ -34,4 +34,22 @@ model Summary {
   language   String
 
   Resource Resource? @relation(fields: [resourceId], references: [id])
+}
+
+model Tag {
+  id          Int           @id @default(autoincrement())
+  name        String        @unique
+  resources   Resource[]    @relation("ResourceTags")
+  ResourceTag ResourceTag[]
+}
+
+model ResourceTag {
+  resourceId String
+  tagId      Int
+
+  Resource Resource @relation(fields: [resourceId], references: [id])
+  Tag      Tag      @relation(fields: [tagId], references: [id])
+
+  @@id([resourceId, tagId])
+  @@map("resource_tag")
 }

@@ -1,10 +1,16 @@
-POST http://localhost:3000/
+
+# Add a resource on DB
+POST http://localhost:3000/resources
 Content-Type: application/json
 
 {
-"title":"Evento 1",
-"details":"Um evento para os apaixonados por TI.",
-"maximumAttendees": 2
+  "name": "Example Resource 1",
+  "audioPath": "path/to/audio.mp3",
+  "videoUrl": "https://example.com/video1.mp4",
+  "tags": [
+    { "name": "Agro" },
+    { "name": "Technology" }
+  ]
 }
 
 ###
